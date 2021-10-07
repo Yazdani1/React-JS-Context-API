@@ -1,9 +1,18 @@
-
-import './App.css';
+import "./App.css";
+import MovieList from "./MovieList";
+import Nav from "./Nav";
+import { MovieProvider } from "./MovieContext";
+import Another from "./Another";
 
 function App() {
   return (
-    <h1>Hello React js</h1>
+    <MovieProvider>
+      <div>
+        <Nav />
+        <MovieList />
+        <Another/>
+      </div>
+  </MovieProvider>
   );
 }
 
