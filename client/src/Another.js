@@ -7,7 +7,12 @@ const Another = () => {
 
   return (
     <div className="another">
-      <h1>{allmovies && allmovies.name}</h1>
+      <h1>Total movies: {allmovies.length}</h1>
+      {allmovies.map((movie) => (
+        <div>
+          <h5>{movie.name}</h5>
+        </div>
+      ))}
     </div>
   );
 };
