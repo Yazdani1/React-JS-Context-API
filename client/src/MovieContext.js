@@ -21,22 +21,12 @@ export const MovieProvider = (props) => {
     },
   ];
 
-  const products = [
-    {
-      pname:"T-shirt",
-      pprice: 10
-    },
-    {
-      pname:"Jacket",
-      pprice: 85
-    },
-  ];
+
 
   const [movies, setMovies] = useState(items);
-  const [listofproduct,setProducts] = useState(products);
 
   return (
-    <MovieContext.Provider value={[movies, setMovies],[listofproduct,setProducts]}>
+    <MovieContext.Provider value={[movies, setMovies]}>
       {props.children}
     </MovieContext.Provider>
   );
