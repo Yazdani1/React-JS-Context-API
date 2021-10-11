@@ -6,7 +6,7 @@ const Product = () => {
 
   return (
     <div>
-      <h1>Hello From Product: {listofproduct.length} </h1>
+      <h1> Product: {listofproduct.length} </h1>
       {
           listofproduct.map(product=>(
               <div>
