@@ -19,6 +19,11 @@ export const MovieProvider = (props) => {
       price: "$10",
       id: "58986",
     },
+    {
+      name: "Krish",
+      price: "$100",
+      id: "589866",
+    },
   ];
 
 

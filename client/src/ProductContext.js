@@ -24,6 +24,10 @@ export const ProductProvider = (props) => {
       name: "Laptop",
       price: 55,
     },
+    {
+      name: "Laptop",
+      price: 55,
+    },
   ];
 
   const [listofproduct, setProducts] = useState(products);
