@@ -9,6 +9,7 @@ const MovieList = () => {
     <div>
       {getmovies ? (
         getmovies.map((item) => (
+          
             <Movie name={item.name} price={item.price} id={item.id} />
     
         ))

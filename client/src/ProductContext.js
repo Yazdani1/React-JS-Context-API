@@ -3,6 +3,7 @@ import React, { useState, createContext } from "react";
 export const ProductContext = createContext();
 
 export const ProductProvider = (props) => {
+
   const products = [
     {
       name: "T-shirt",
@@ -29,6 +30,7 @@ export const ProductProvider = (props) => {
       price: 55,
     },
   ];
+  
 
   const [listofproduct, setProducts] = useState(products);
 
