@@ -5,17 +5,18 @@ import { MovieProvider } from "./MovieContext";
 import Another from "./Another";
 import Product from "./Product";
 import { ProductProvider } from "./ProductContext";
+import React from "react";
 
 function App() {
   return (
     <ProductProvider>
       <MovieProvider>
-        <div>
+        <React.Fragment>
           <Nav />
           <MovieList />
           <Another />
           <Product />
-        </div>
+        </React.Fragment>
       </MovieProvider>
     </ProductProvider>
   );
