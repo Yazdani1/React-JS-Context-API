@@ -5,14 +5,7 @@ export const ProductContext = createContext();
 export const ProductProvider = (props) => {
 
   const products = [
-    {
-      name: "T-shirt",
-      price: 10,
-    },
-    {
-      name: "Jacket",
-      price: 85,
-    },
+
     {
       name: "Shoes",
       price: 55,
