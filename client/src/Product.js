@@ -3,7 +3,6 @@ import { ProductContext } from "./ProductContext";
 
 const Product = () => {
   const [listofproduct, setProducts] = useContext(ProductContext);
-
   return (
     <div>
       <h1> Product: {listofproduct.length} </h1>
