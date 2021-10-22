@@ -11,6 +11,8 @@ const Another = () => {
       {allmovies.map((movie) => (
         <div>
           <h5>{movie.name}</h5>
+          <h5>{movie.price}</h5>
+          <h5>{movie.name}</h5>
         </div>
       ))}
     </div>
