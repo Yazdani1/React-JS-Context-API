@@ -12,8 +12,8 @@ const Nav = () => {
     <div className="navbar">
       <li className="eachitems">Home</li>
       <li className="eachitems">Name</li>
-      <li className="eachitems">Total Products: {allProducts.length}</li>
-      <li className="eachitems">List of Movies: {getmovies.length}</li>
+      <li className="eachitems">Total list of Products: {allProducts.length}</li>
+      <li className="eachitems">Total List of Movies: {getmovies.length}</li>
     </div>
   );
 };
