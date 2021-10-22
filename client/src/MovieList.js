@@ -9,9 +9,10 @@ const MovieList = () => {
     <div>
       {getmovies ? (
         getmovies.map((item) => (
-          
+          <>
             <Movie name={item.name} price={item.price} id={item.id} />
-    
+            <Movie name={item.name} price={item.price} id={item.id} />
+          </>
         ))
       ) : (
         <h1>Loading..</h1>
