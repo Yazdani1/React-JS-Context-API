@@ -12,7 +12,7 @@ const Another = () => {
         <div>
           <h5>{movie.name}</h5>
           <h5>{movie.price}</h5>
-          <h5>{movie.name}</h5>
+          <h5>{movie.id}</h5>
         </div>
       ))}
     </div>
