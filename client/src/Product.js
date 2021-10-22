@@ -5,7 +5,7 @@ const Product = () => {
   const [listofproduct, setProducts] = useContext(ProductContext);
   return (
     <div>
-      <h1> Product: {listofproduct.length} </h1>
+      <h1>Number of Product: {listofproduct.length} </h1>
       {
           listofproduct.map(product=>(
               <div>
