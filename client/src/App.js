@@ -5,20 +5,25 @@ import { MovieProvider } from "./MovieContext";
 import Another from "./Another";
 import Product from "./Product";
 import { ProductProvider } from "./ProductContext";
+import { PostProvider } from "./PostContext";
 import React from "react";
+import PostList from "./Postlist";
 
 function App() {
   return (
-    <ProductProvider>
-      <MovieProvider>
-        <React.Fragment>
-          <Nav />
-          <MovieList />
+    <PostProvider>
+      <ProductProvider>
+        <MovieProvider>
+          <React.Fragment>
+            <Nav />
+            <PostList />
+            {/* <MovieList />
           <Another />
-          <Product />
-        </React.Fragment>
-      </MovieProvider>
-    </ProductProvider>
+          <Product /> */}
+          </React.Fragment>
+        </MovieProvider>
+      </ProductProvider>
+    </PostProvider>
   );
 }
 

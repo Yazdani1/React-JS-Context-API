@@ -9,15 +9,20 @@
   width: 100%;
 }
 
-.eachitems{
+.eachitems {
   width: 30%;
 }
 
-.another{
+.another {
   height: 400px;
   color: aliceblue;
   background-color: crimson;
 }
-body{
+body {
   margin: 20px;
+}
+.post_design {
+  height: 300px;
+  background-color: cadetblue;
+  color: white;
 }
