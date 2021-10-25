@@ -6,11 +6,15 @@ const PostList = () => {
 
   return (
     <div>
-      {data.map((item) => (
-        <div>
-          <Post title={item.title} body={item.body} id={item.id} />
-        </div>
-      ))}
+      {data ? (
+        data.map((item) => (
+          <>
+            <Post title={item.title} body={item.body} id={item.id} />
+          </>
+        ))
+      ) : (
+        <h1>Loadingg....</h1>
+      )}
     </div>
   );
 };

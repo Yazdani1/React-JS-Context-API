@@ -30,9 +30,7 @@ export const MovieProvider = (props) => {
       id: "589866",
     },
   ];
-
-
-
+  
   const [movies, setMovies] = useState(items);
 
   return (

@@ -3,7 +3,7 @@ import React, { useState, useEffect, createContext } from "react";
 export const PostContext = createContext();
 
 export const PostProvider = (props) => {
-    
+
   const [data, setData] = useState([]);
 
   const url = "https://jsonplaceholder.typicode.com/posts";
